@@ -1,0 +1,129 @@
+/* Nav Bar Code */
+
+.topnav {
+    padding: 14px 16px;
+    border-color: white;
+    border-style: double;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    text-decoration: underline;
+    color: #f2f2f2;
+    font-size: 17px;
+}
+
+.links-container {
+    display: flex;
+    gap: 1rem;
+}
+
+/*Across the board standards */
+
+body {
+    background-color:rgb(131, 193, 196);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+hr {
+    color: white;
+    border-color: white;
+    background-color: white;
+}
+/* Index page */
+
+.index-content {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.index-newborder {
+    align-items: center;
+    display: flex;
+    justify-content:center;
+}
+
+.index-img {
+    display:inline-block;
+    max-width: 20%;
+    height: auto;
+    margin: 30px;
+}
+
+.index-p {
+    border-color: white;
+    border-style: double;
+    text-align: center;
+    height: 350px;
+    width: 400px;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+/* My About Page */
+
+.about-content {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-h4 {
+    font-size: 22px;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+.about-img {
+    display:inline-block;
+    max-width: 25%;
+    height: auto;
+    margin: 30px;
+}
+
+.about-container {
+    width: 100%;
+    display: flex;
+}
+
+.about-pc {
+    font-size: 16px;
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
+
+.ul1 {
+    width: 30%;
+    margin: auto;
+    border-color: white;
+    border-style:double;
+    padding-left: 40px;
+    padding-right: 25px;
+    text-align: center;
+}
+
+.ul2 {
+    width: 20%;
+    margin: auto;
+    border-color: white;
+    border-style:double;
+    text-align: center;
+}
+
+/* My Portfolio Page */
+
+.portfolio-content {
+    text-align:center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.portbox {
+    border-color: white;
+    border-style:double;
+    text-align: center;
+    margin: auto;
+    width: 30%
+}
+
+.port-h3 {
+    text-decoration-line: underline;
+    text-decoration-color: white;
+}
