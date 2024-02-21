@@ -2,7 +2,7 @@
 
 .topnav {
     padding: 14px 16px;
-    border-color: white;
+    border-color: white !important;
     border-style: double;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -12,10 +12,16 @@ a {
     font-size: 17px;
 }
 
+a:hover {
+    background-color:#f2f2f2;
+    color: rgb(131, 193, 196);
+}
+
 .links-container {
     display: flex;
     gap: 1rem;
 }
+
 
 /*Across the board standards */
 
@@ -127,3 +133,43 @@ hr {
     text-decoration-line: underline;
     text-decoration-color: white;
 }
+
+/* My contact page */
+label {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin: 0.5rem 0;
+  }
+
+  fieldset {
+    width: 40%;
+    margin: auto;
+    border-color: white;
+    border-style:double;
+    padding: 0.5rem;
+  }
+
+  input[type="submit"] {
+    display: block;
+    width: 20%;
+    margin: 1em auto;
+    height: 3em;
+  }
+
+  .contact {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  /* Success page */
+  .thanks {
+    margin: auto;
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  * {
+    box-sizing: border-box;
+  }

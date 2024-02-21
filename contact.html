@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="style.css" rel="stylesheet" />
+    <script src="javascript.js"></script>
+    <script src="contact.js"></script>
+</head>
+
+<body>
+    <!--Navigation Bar Section-->
+    <div>
+        <div class="topnav">
+            <div class="links-container">
+                <a href="index.html">
+                    Home
+                </a>
+                <a href="about.html">
+                    About
+                </a>
+                <a href="portfolio.html">
+                    My Portfolio
+                </a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!--Contact Form-->
+    <h1 class="contact">Let's Get In Touch!</h1>
+    <h3 class="contact">Fill out the form below or contact me via my <a href="https://www.linkedin.com/in/brooke-sweedar-b5562b48/" target="_blank">LinkedIn</a></h3>
+    <form method="GET" action="success.html" id="form">
+        <fieldset>
+            <label for="full-name"> Enter Your First and Last Name: 
+                <input id="full-name" name="full-name" type="text"/>
+            </label>
+            <label for="email">Enter Your Email Address: 
+                <input id="email" name="email" type="email"/>
+            </label>
+            <label for="message">Send Me A Message: 
+                <textarea id="message" name="message" type="text" placeholder="Enter your message here" rows="10" cols="30"></textarea>
+            </label>
+            <input id ="submit" type="submit" value="Submit"/>
+        </fieldset>
+    </form>
+</body>
+
+</html>
